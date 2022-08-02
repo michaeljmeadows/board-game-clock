@@ -218,7 +218,7 @@
 
         <title>Board Game Clock</title>
 
-        <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+        @vite('resources/css/app.css')
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -229,7 +229,7 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#000000">
 
-        <script src="{{ mix('js/app.js') }}" defer></script>
+        @vite('resources/js/app.js')
 
     </head>
     
